@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                   @yield('kto') Laravel ! <a href="contacts">contacts</a>
                 </div>
 
                 <div class="links">

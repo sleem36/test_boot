@@ -73,10 +73,6 @@ body {
   text-align: left;
   background-color: #f8fafc;
 }
-body {
-    background-color: yellow!important;
-}
-
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -11992,5 +11988,9 @@ a.text-dark:focus {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body {
+  background-color: yellow !important;
 }
 
