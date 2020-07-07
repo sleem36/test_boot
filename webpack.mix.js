@@ -12,6 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix
+    .version()
     .setResourceRoot('build')
     .setPublicPath('public/build')
     .js('resources/js/app.js', 'js')

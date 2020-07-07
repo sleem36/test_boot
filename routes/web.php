@@ -19,3 +19,7 @@ Route::get('contacts', 'Controller@contacts');
 
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
